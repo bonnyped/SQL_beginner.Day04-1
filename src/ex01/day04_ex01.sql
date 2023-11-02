@@ -1,4 +1,4 @@
-CREATE VIEW all_names AS
+CREATE VIEW v_all_names AS
 SELECT vpf.name
 FROM v_persons_female vpf
 UNION ALL
