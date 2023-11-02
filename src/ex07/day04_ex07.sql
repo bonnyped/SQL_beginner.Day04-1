@@ -8,6 +8,5 @@ SELECT (SELECT max(pv.id) + 1
         FROM menu mn
         WHERE mn.price < 800
         LIMIT 1),
-        '2022-01-08'::date
-;
+        '2022-01-08'::date;
 REFRESH MATERIALIZED VIEW mv_dmitriy_visits_and_eats;

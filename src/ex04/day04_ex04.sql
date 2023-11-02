@@ -13,4 +13,4 @@ WHERE pv2.visit_date = '2022-01-06'
 EXCEPT ALL
 SELECT pv.person_id
 FROM person_visits pv
-WHERE pv.visit_date = '2022-01-02')
+WHERE pv.visit_date = '2022-01-02');
