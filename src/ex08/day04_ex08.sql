@@ -1,5 +1,5 @@
 DROP VIEW IF EXISTS
-    all_names,
+    v_all_names,
     v_generated_dates,
     v_persons_male,
     v_persons_female,
