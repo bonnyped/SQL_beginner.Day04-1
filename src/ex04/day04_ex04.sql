@@ -6,7 +6,7 @@ EXCEPT ALL
 SELECT pv2.person_id
 FROM person_visits pv2
 WHERE pv2.visit_date = '2022-01-06')
-UNION ALL
+UNION 
 (SELECT pv2.person_id
 FROM person_visits pv2
 WHERE pv2.visit_date = '2022-01-06'
